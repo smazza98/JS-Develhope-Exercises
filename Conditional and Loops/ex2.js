@@ -11,6 +11,8 @@ const persons = [
     { name: 'Alice', age: 28 }
   ];
 
+// Note: I omitted the use of the for loop in favour of the more concise and shorter functional approach.
+
 let nicknameMap = persons.map(function(element){
     let nicknames = `${element.name} ${element.age}`;
     return nicknames;
@@ -20,6 +22,3 @@ let nicknameMap = persons.map(function(element){
 
   console.log(persons);
   console.log(nicknames);
-
-
- 
