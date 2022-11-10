@@ -1,5 +1,3 @@
-/* Function init */
-
 function calculateSalary(position) {
 
     const ceoSalary = "€127,977 per year";
@@ -35,8 +33,6 @@ function calculateSalary(position) {
             return position;
     }
 }
-
-/* Function call */ 
 
 const ceoSalary = calculateSalary('ceo');
 const managerSalary = calculateSalary('manager');
