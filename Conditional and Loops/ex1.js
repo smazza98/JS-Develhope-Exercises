@@ -10,27 +10,27 @@ function calculateSalary(position) {
 
     switch(position) {
         case 'ceo':
-            console.log(ceoSalary);
+            return(ceoSalary)
             break;
         
         case 'manager':
-            console.log(managerSalary);
+            return(managerSalary)
             break;
 
         case 'cto':
-            console.log(ctoSalary);
+            return(ctoSalary);
             break;
 
         case 'developer':
-            console.log(developerSalary);
+            return(developerSalary);
             break;
 
         case 'other':
-            console.log(otherSalary);
+            return(otherSalary);
             break;
         
         default:
-            console.log("Sorry, we are not able to find any jobs with that name.");
+            return("Sorry, we are not able to find any jobs with that name.");
 
             return position;
     }
@@ -38,4 +38,14 @@ function calculateSalary(position) {
 
 /* Function call */ 
 
-calculateSalary("");
+const ceoSalary = calculateSalary('ceo');
+const managerSalary = calculateSalary('manager');
+const ctoSalary = calculateSalary('cto');
+const developerSalary = calculateSalary('developer');
+const otherSalary = calculateSalary('other');
+
+console.log(ceoSalary);
+console.log(managerSalary);
+console.log(ctoSalary);
+console.log(developerSalary);
+console.log(otherSalary);
