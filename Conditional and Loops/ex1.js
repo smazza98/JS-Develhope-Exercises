@@ -9,28 +9,21 @@ function calculateSalary(position) {
     switch(position) {
         case 'ceo':
             return(ceoSalary)
-            break;
         
         case 'manager':
             return(managerSalary)
-            break;
 
         case 'cto':
             return(ctoSalary);
-            break;
 
         case 'developer':
             return(developerSalary);
-            break;
 
         case 'other':
             return(otherSalary);
-            break;
         
         default:
             return("Sorry, we are not able to find any jobs with that name.");
-
-            return position;
     }
 }
 
