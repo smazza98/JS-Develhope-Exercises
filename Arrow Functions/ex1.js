@@ -26,8 +26,8 @@ const divide = (a, b) => a / b;
 //     console.log(value);
 //   }
 
-const log = (value) => console.log(value);
+const log = (value) => {return value};
 
 const result = divide(subtract(multiply(sum(2, 4), sum(5, 2)), 2), 5);
 
-log(result);
+console.log(log(result));
