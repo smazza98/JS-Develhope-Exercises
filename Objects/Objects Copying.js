@@ -9,7 +9,7 @@ const person1 = {
   // const person2 = person1;
   
   /*Doing so, there’s still one object, but now with two variables that reference it.
-  We can use either variable to access the object and modify its contents: */
+  We can use either variable to access the object and modify its contents... */
   
   // person2.firstNasme = "Simon";
 
