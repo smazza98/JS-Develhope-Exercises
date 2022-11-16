@@ -11,7 +11,7 @@ const person1 = {
   /*Doing so, there’s still one object, but now with two variables that reference it.
   We can use either variable to access the object and modify its contents... */
   
-  // person2.firstNasme = "Simon";
+  // person2.firstName = "Simon";
 
   // The proper way to do it would be to copy values from the provided object to a new object, like so...
 
