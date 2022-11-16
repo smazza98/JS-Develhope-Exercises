@@ -1,4 +1,4 @@
-const printName = function() {
+const printName = () => {
     let helloName = "Hello John";
     const inner = () => {setTimeout(() => {console.log(helloName)}, 1000); return helloName}
     return inner;
