@@ -1,5 +1,5 @@
 const printName = () => {
-    let helloName = "Hello John";
+    const helloName = "Hello John";
     const inner = () => {return helloName;}
     return inner;
 }
