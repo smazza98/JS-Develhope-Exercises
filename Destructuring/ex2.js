@@ -1,10 +1,10 @@
 const person = {
-    id: 1,
-    firstName: 'Mario',
-    lastName: 'Rossi',
-    age: 25
-  };
+  id: 1,
+  firstName: 'Mario',
+  lastName: 'Rossi',
+  age: 25
+};
 
-  const {id, firstName, lastName, age} = person;
+const { id, firstName, lastName, age } = person;
 
-  console.log(id, firstName, lastName, age);
+console.log(id, firstName, lastName, age);
