@@ -9,12 +9,19 @@ const persons = [
     { name: 'Mark', age: 15 },
     { name: 'Sandra', age: 34 },
     { name: 'Alice', age: 28 }
-  ];
+];
 
-  function calculateAverageAge(arr) {
-    const age = arr.map(i => i.age);
-    return Math.round(age.reduce((a, b) => a + b) / age.length);
-  }
+function calculateAverageAge(persons) {
+    let sum = 0;
+
+    for (const person of persons) {
+        sum += person.age;
+    }
+
+    const average = sum / persons.length;
+
+    return average;
+}
 
 const average = calculateAverageAge(persons);
 console.log(persons);
